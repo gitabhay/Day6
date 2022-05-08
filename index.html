@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day6 Assignment</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* Internal CSS */
+        .internal{
+            background-color: red;
+            color: black;
+            padding: 1%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        "Revise all the concepts : 
+
+Q 1 : Create unordered list and ordered list
+Q 2 : Create user form accepting name age contact address 
+Q 3 : Create radio button in selecting Male, Female and create checkbox for selecting options as React HTML CSS JS Node
+Q 4 : Explain different types of CSS
+Q 5 : Create an example to explain the difference between margin and padding
+Q 6 : By using flex , arranges 10 boxes. three boxes should be in a row and page should be scrollable
+Q 7 : Create the image or structure given in the image using grid."
+     -->
+     <div>
+         <h2>Ques. 1 : Create unordered list and ordered list.</h2>
+   <b>      Answer :- </b> <i>Lists</i> : There are two types of lists :- 
+         1) Ordered Lists   &nbsp; &nbsp;
+         2) Unoredered Lists
+         <div class="flex-box">
+            <div class="flex1">
+              
+                <h2>Ordered List :-</h2>
+                1.Number
+                2.Capital Alphabet
+                3.Small ALphabet
+                4.Capital Roman
+                5.Small Roman
+               <p><i>By default ordered List type is Number </i></p> 
+             
+
+               <ol type="1">
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript </li>
+                <li>React </li>
+                </ol>
+
+               <ol type="A">
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript </li>
+                <li>React </li>
+                </ol>
+
+                <ol type="a">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Javascript </li>
+                    <li>React </li>
+                    </ol>
+
+                <ol type="I">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Javascript </li>
+                    <li>React </li>
+                    </ol>
+            
+               <ol type="i">
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript </li>
+                <li>React </li>
+                </ol>
+
+               
+            </div>
+
+            <div class="flex2">
+
+                <h2>Unoredered List :-</h2>
+                
+                1.Circle
+                2.Square
+                3.Disc
+                4.None              
+            <p><i>    By default it is an Disc Type</i></p>
+            
+            <ul type="Circle">
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript </li>
+                <li>React </li>
+            </ul>
+
+                <ul type="Square">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Javascript </li>
+                    <li>React </li>
+                </ul>
+
+                <ul type="Disc">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Javascript </li>
+                    <li>React </li>
+                </ul>
+
+                <ul type="None">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Javascript </li>
+                    <li>React </li>
+                </ul>
+            </div>
+         </div>
+     </div>
+     <hr>
+     <div class="form-box">
+         <h2>Ques 2 : Create user form accepting name, age, contact and address. </h2>
+
+ <b><i>Forms :</i></b>  To capture the data or to collect the data from the user.
+         <form class="form1">
+             <label for="name">Name</label>
+             <input type="text" class="name" value="" placeholder="Name" required><br>
+
+             <label for="age">Age</label>
+             <input type="number" class="age" value="" placeholder="Enter Age" required><br>
+
+             <label for="contact">Contact</label>
+             <input type="number" class="contact" maxlength="10" value="" placeholder="Enter Mobile No" required><br>
+
+             <label for="address">Address</label>
+             <input type="text" class="address" value="" placeholder="Enter Address" required><br>
+            
+             <button class="btn-submit">Submit</button>
+         </form>
+     </div>
+     <hr>
+     <div>
+         <h2>Ques. 3 : Create radio button in selecting Male, Female and create checkbox for selecting options as React, HTML, CSS and JS Node.</h2>
+         <form class="form2">
+             <label for="gender">Select Genter :- </label><br><br>
+             <input type="radio" name="gender" value="Female">
+             <label for="felmale">Female</label>
+             <input type="radio" name="gender" value="Male">
+             <label for="male">Male</label>
+             <input type="radio" name="gender" value="other">
+             <label for="other">Other</label>
+
+             <br><br>
+
+             <label for="language">Select Langage :- </label> <br><br>
+             <select name="language" id="language">
+                <option value="HTML">Select</option>
+                 <option value="HTML">HTML</option>
+                 <option value="CSS">CSS</option>
+                 <option value="JS">JS</option>
+                 <option value="React">React</option>
+                 <option value="Node">Node</option>
+             </select><br><br>
+
+             <button class="btn-submit">Submit</button>
+
+         </form>
+     </div>
+     <hr>
+     <div>
+         <h2>Ques. 4 : Explain different types of CSS.</h2>
+       
+          
+         There are three ways to include our css. <br>
+    
+         <ul>
+            <li>Inline CSS</li>
+            <li>Internal CSS</li>
+            <li>External CSS </li>
+        
+        </ul>
+       
+
+        <h4>Inline CSS :-</h4>
+       <p>In inline css we need to mention our styling within the opening tag only and we need to use style attribute. <br></p> 
+       <h1 style="color: red;background-color: yellow;">Inline CSS </h1>
+       
+       <h4>Internal CSS :-</h4>
+
+    
+
+       <p> Internal is having more priority than the external. Internal css should be written inside only in our head tag. <br>
+      Style tag is need to be used in our Internal css. Whenever we are using class we need to call with . (dot) <b> Example:-</b> .box .example.  Whenever we are using id we need to call with #  <b> Example:-</b> #box #example
+       </p>
+
+       <b> Try to use Inline styling when you want to apply one or two properties.</b>
+       <p>  Class:- Class can be used multiple times in an element.  <b> Id :-</b> Id can be only in our element. </p>
+
+       <h2 class="internal">Internal CSS</h2>
+
+       <h4>External CSS :-</h4>
+        When ever we are using external style sheet we should link with the link tag. Multiple class is applied but only one id is applied for css.
+        <h2 class="external border" id="external">External CSS</h2>
+    
+     </div>
+     <hr>
+     <div>
+        <h2>Ques. 5 : Create an example to explain the difference between margin and padding.</h2>
+
+
+        <b>Margin :-</b> The margin between the Browsers screen and the Element border.
+
+        <ul>
+            <li>Margin left</li>
+            <li>Margin Right</li>
+            <li> Margin top </li>
+            <li> Margin Bottom</li>
+        
+        </ul>
+         <b>   Short Hand Properties :- </b>
+        
+         <i>   Margin:5px 10px;</i> &nbsp; <b>5px</b> is going to be top and bottom &nbsp; <b>10px</b> is going to be right and left 
+        
+           <p> Margin:10px 5px 10px 5px; &nbsp; <i><b> Top Right Bottom Left </b></i></p>
+              
+
+        
+        
+             <b>  Padding :-</b>  The space between the  Element border  and the Content.
+        
+               
+        <ul>
+            <li>Padding left</li>
+            <li>Padding Right</li>
+            <li> Padding top </li>
+            <li> Padding Bottom</li>
+        
+        </ul>
+        
+           
+               
+              <b> Short Hand Properties :-</b>
+               
+            <i>  Padding:5px 10px; </i>
+               
+               <b>5px</b> is going to be top and bottom 
+               
+              <b> 10px </b> is going to be right and left <br> <br>
+               
+               Padding:10px 5px 10px 5px;  &nbsp; <i><b> Top Right Bottom Left </b></i> 
+
+               <div class="random">Padding & Margin</div>     
+
+        <!-- <div class="box1">Margin and padding example</div> -->
+     </div>
+     <hr>
+     <div>
+         <h2>Ques. 6 : By using flex , arranges 10 boxes. three boxes should be in a row and page should be scrollable.</h2>
+       
+         <b>Flex :- </b> It an One dimensional where we are going to have either row or either column. <br>
+         We can adjust our elements or we can change the direction of our elemenst by using flex dierection. <br>
+         
+         <p><b>Justify-content:</b> Aign our items in Main Axis (X direction-row ). <br></p>
+         <b>Align items:</b> Align our items in Cross Axis(Y direction-Column ). <br>
+         
+       
+         <!-- <div class="flex-container">
+            <div class="flex">flex 1</div>
+            <div class="flex">flex 2</div>
+            <div class="flex">flex 3</div>
+            <div class="flex">flex 4</div>
+            <div class="flex">flex 5</div>
+            <div class="flex">flex 6</div>
+            <div class="flex">flex 7</div>
+            <div class="flex">flex 8</div>
+            <div class="flex">flex 9</div>
+            <div class="flex">flex 10</div>
+        </div> -->
+
+               
+        
+<div class="container">
+
+
+    <div class="box">Box1</div>
+    
+    <div class="box">Box2</div>
+    
+    <div class="box">Box3</div>
+    <div class="box">Box4</div>
+    
+    <div class="box">Box5</div>
+    
+    <div class="box">Box6</div>
+    
+    
+    <div class="box">Box7</div>
+    
+    <div class="box">Box8</div>
+    
+    <div class="box">Box9</div>
+    
+    <div class="box">Box10</div>
+    
+    <div class="box">Box11</div>
+    </div>
+    
+    </div>
+    </div>
+    <hr>
+    <div>
+        <h2>Ques. 7 : Create the image or structure given in the image using grid.</h2>
+    
+      
+            <p>Grid is an 2-Dimentional Layout which will be having both rows and columns.</p>
+            <p>Grid Template Column is used to create the N number of column and if we apply any property like 50% ts  going to be width.</p>
+          
+        
+        <div class="grid-box">
+            <div class="grid g1"></div>
+            <div class="grid g2"></div>
+            <div class="grid g3"></div>
+            <div class="grid g4"></div>
+            <div class="grid g5"></div>
+           
+        </div>
+    </div>
+
+</body>
+</html>
+
+
